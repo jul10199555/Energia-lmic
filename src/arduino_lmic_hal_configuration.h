@@ -27,7 +27,7 @@ namespace Arduino_LMIC {
 typedef	int32_t	ostime_t;
 
 // this type is used when we need to represent a threee-state signal
-enum class ThreeState_t : uint8_t {
+enum class ThreeState_t : {
 	Off = 0,
 	On = 1,
 	HiZ = 2
